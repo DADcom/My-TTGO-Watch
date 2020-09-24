@@ -49,6 +49,7 @@
 #include "app/osmand/osmand_app.h"
 #include "app/IRController/IRController.h"
 #include "app/powermeter/powermeter_app.h"
+#include "app/snoop_app/snoop_app.h"
 
 TTGOClass *ttgo = TTGOClass::getWatch();
 
@@ -98,14 +99,15 @@ void setup()
     /*
      * add apps and widgets here!!!
      */
-    weather_app_setup();
-    stopwatch_app_setup();
-    alarm_clock_setup();
-    crypto_ticker_setup();
-    example_app_setup();
-    osmand_app_setup();
-    IRController_setup();
-    powermeter_app_setup();
+    //weather_app_setup();
+    //stopwatch_app_setup();
+    //alarm_clock_setup();
+    //crypto_ticker_setup();
+    //example_app_setup();
+    //osmand_app_setup();
+    //IRController_setup();
+    //powermeter_app_setup();
+    snoop_app_setup();
     /*
      *
      */

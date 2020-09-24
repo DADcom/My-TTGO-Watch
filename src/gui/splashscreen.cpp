@@ -28,7 +28,7 @@ lv_obj_t *preload = NULL;
 lv_obj_t *preload_label = NULL;
 lv_style_t style;
 
-LV_IMG_DECLARE(hedgehog);
+LV_IMG_DECLARE(dadclogo);
 
 void splash_screen_stage_one( void ) {
 
@@ -47,7 +47,7 @@ void splash_screen_stage_one( void ) {
     lv_obj_align( background, NULL, LV_ALIGN_CENTER, 0, 0 );
 
     logo = lv_img_create( background , NULL );
-    lv_img_set_src( logo, &hedgehog );
+    lv_img_set_src( logo, &dadclogo );
     lv_obj_align( logo, NULL, LV_ALIGN_CENTER, 0, 0 );
 
     preload = lv_bar_create( background, NULL );

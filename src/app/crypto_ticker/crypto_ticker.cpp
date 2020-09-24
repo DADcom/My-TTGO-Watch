@@ -55,7 +55,7 @@ static void enter_crypto_ticker_event_cb( lv_obj_t * obj, lv_event_t event );
 
 void crypto_ticker_load_config( void );
 
-// setup routine for example app
+// setup routine for snoop app
 void crypto_ticker_setup( void ) {
 
     crypto_ticker_load_config();
